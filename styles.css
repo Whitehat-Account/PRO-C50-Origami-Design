@@ -1,0 +1,59 @@
+body {
+  background-color: whitesmoke;
+}
+
+li {
+  font-size: large;
+}
+
+a:link, a:visited {
+  color: gold;
+}
+
+a:hover, a:active {
+  color: red;
+}
+
+.header {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 400;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description {
+  background-image: radial-gradient(rgb(145, 145, 145), black);
+  color: white;
+  font-family: 'Chiller';
+  text-align: center;
+}
+
+.origami {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+  font-family: fantasy
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+h4 {
+  font-size: x-large;
+}
+
+p {
+  font-size: xx-large;
+}
+
+img {
+  border: 1px solid black;
+}
